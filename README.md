@@ -6,11 +6,11 @@
 
 ### Abstract
 
-Nutrients present in the SF Bay are linked to higher algae blooms and toxins which result in lower dissolved oxygen (DO), negative impacts to fish habitat and lower the overall water quality. This topic was covered as a feature article in the 2017 Pulse of the Bay$^{1}$ which included data analysis of SF Bay monitoring results; as a result, this study continues such analysis with machine learning to identify other potential insights from monitoring data.
+Nutrients present in the SF Bay are linked to higher algae blooms and toxins which result in lower dissolved oxygen (DO), negative impacts to fish habitat and lower the overall water quality. This topic was covered as a feature article in the 2017 Pulse of the Bay<sup>1</sup> which included data analysis of SF Bay monitoring results; as a result, this study continues such analysis with machine learning to identify other potential insights from monitoring data.
 
 ### Introduction
 
-This study outlines the data, methods and results used to identify trends in the SF Estuary Institute (SFEI) Regional Monitoring Program (RMP) water quality and toxicity monitoring results from the Contaminant Data Display and Download (CD3) database$^{2}$. Specifically, it seeks to answer the following questions:
+This study outlines the data, methods and results used to identify trends in the SF Estuary Institute (SFEI) Regional Monitoring Program (RMP) water quality and toxicity monitoring results from the Contaminant Data Display and Download (CD3) database<sup>2</sup>. Specifically, it seeks to answer the following questions:
 
 1. Which data attributes most influence DO, chlorophyll-a (Chl-a), ammonium (as N) and ammonia (as NH^3) levels?
 2. Does identifying these attributes lead to insights regarding possible causes for increasing nutrients?
@@ -37,7 +37,7 @@ The tools and process listed below were used to analyze data and provide recomme
 
 ### Citations
 
-$^{1}$ 2017 SFEI Pulse of the Bay, Nutrients Article (p.22): https://www.sfei.org/documents/pulse-bay-25th-anniversary-rmp
+<sup>1</sup> 2017 SFEI Pulse of the Bay, Nutrients Article (p.22): https://www.sfei.org/documents/pulse-bay-25th-anniversary-rmp
 <br></br>
-$^{2}$ SFEI CD3 Database: https://cd3.sfei.org/
+<sup>2</sup> SFEI CD3 Database: https://cd3.sfei.org/
 <br></br>

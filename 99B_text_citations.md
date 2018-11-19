@@ -4,6 +4,14 @@ $^{1}$ 2017 SFEI Pulse of the Bay, Nutrients Article (p.22): https://www.sfei.or
 <br></br>
 $^{2}$ SFEI CD3 Database: https://cd3.sfei.org/
 <br></br>
+$^{3}$ World Health Organization (WHO) Water Quality Standards:
+http://www.who.int/water_sanitation_health/resourcesquality/wpcchap2.pdf
+<br></br>
+$^{4}$ AML for Chlorophyll-A: https://gallery.azure.ai/Experiment/SFEI-RMP-Classification-Evaluation-Chlorophyll-A
+<br></br>
+$^{5}$ AML for DO:
+https://gallery.azure.ai/Experiment/SFEI-RMP-Classification-Evaluation-Dissolved-Oxygen
+<br></br>
 
 ### Terms and Definitions
 

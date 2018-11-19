@@ -42,6 +42,32 @@ rmp_df.dropna(subset=['result'], inplace=True)
 # Print reduced dataset to csv:
 rmp_df.to_csv('./data/cd3-rmp-toxicity.csv')
 
+# Separate monitoring data by analyte type:
+do_df = rmp_df.loc[rmp_df['analyte'] == 'Oxygen, Dissolved']
+do_df.to_csv('./data/cd3-rmp-do.csv')
+print('Summary Statistics - Dissolved Oxygen')
+print(do_df.describe())
+
+cla_df = rmp_df.loc[rmp_df['analyte'] == 'Chlorophyll a']
+cla_df.to_csv('./data/cd3-rmp-cla.csv')
+print('Summary Statistics - Chlorophyll-a')
+print(cla_df.describe())
+
+amm_n = rmp_df.loc[rmp_df['analyte'] == 'Ammonia s N']
+amm_n.to_csv('./data/cd3-rmp-amm-n.csv')
+print('Summary Statistics - Ammonia as N')
+print(amm_n.describe())
+
+amm_nh3 = rmp_df.loc[rmp_df['analyte'] == 'Ammonia as NH3']
+amm_nh3.to_csv('./data/cd3-rmp-amm-nh3.csv')
+print('Summary Statistics - Ammonia as NH3')
+print(amm_nh3.describe())
+
+amm_nh3_union = rmp_df.loc[rmp_df['analyte'] == 'Ammonia as NH3, Unionized']
+amm_nh3_union.to_csv('./data/cd3-rmp-amm-nh3-union.csv')
+print('Summary Statistics - Ammonia as NH3, Unionized')
+print(amm_nh3_union.describe())
+
 # Convert to datetime for time series analysis:
 rmp_df.sampledate = pd.to_datetime(rmp_df.sampledate)
 

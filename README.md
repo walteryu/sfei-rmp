@@ -38,5 +38,5 @@ The tools and process listed below were used to analyze data and provide recomme
 ### Citations
 
 <sup>1</sup> 2017 SFEI Pulse of the Bay, Nutrients Article (p.22): https://www.sfei.org/documents/pulse-bay-25th-anniversary-rmp
-<br></br>
+<p></p>
 <sup>2</sup> SFEI CD3 Database: https://cd3.sfei.org/
